@@ -1,5 +1,3 @@
-# projet_annuel
-
 Avant d'exécuter les programmes, veuillez lancer la commande suivante afin d’être sûr d’avoir tous les librairies utilisées: 
 	
 ------------------------------
@@ -27,4 +25,11 @@ Labyrinthe:
 			-nbs ou --nbs : Le nombre des sections du cercle concentrique -> obligatoire
 			-nbi ou --nbi : Le nombre d'image(s) à générer -> valeur par défaut défini
 
-   
+  
+Exemple utilisation (windows):
+	
+	cd src
+	python labyrinthe.py -o ..\ressource\labtest -nbc 8 -nbs 6
+	python fisheye.py -iFile ..\ressource\labtest.png -oFile ..\ressource\labtestfisheye.png
+	
+	
